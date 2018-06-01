@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Attendance App</string>
+    <string name="signup">SIGN UP</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="email_id">email_id</string>
+    <string name="name">name</string>
+    <string name="email">email</string>
+    <string name="age">age</string>
+    <string name="i_am">i_am</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="sign_up">sign_up</string>
+    <string name="password2">password2</string>
+    <string name="confirm_password">confirm_password</string>
+</resources>
