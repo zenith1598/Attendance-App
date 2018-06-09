@@ -1,4 +1,9 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
@@ -29,7 +34,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="@string/name" />
+                android:hint="Name" />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
@@ -44,7 +49,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="@string/email"
+                android:hint="Email Id"
                 android:inputType="textEmailAddress" />
         </android.support.design.widget.TextInputLayout>
 
@@ -60,7 +65,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="@string/password2"
+                android:hint="Password"
                 android:inputType="textPassword" />
         </android.support.design.widget.TextInputLayout>
 
@@ -76,7 +81,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="@string/confirm_password"
+                android:hint="Confirm Password"
                 android:inputType="textPassword" />
 
 
@@ -94,7 +99,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="@string/age" />
+                android:hint="Age" />
         </android.support.design.widget.TextInputLayout>
 
         <RelativeLayout
@@ -108,7 +113,7 @@
                 android:layout_height="wrap_content"
                 android:paddingRight="15dp"
 
-                android:text="@string/i_am"
+                android:text="I am :"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
                 android:textSize="20dp" />
 
@@ -125,14 +130,14 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:checked="true"
-                    android:text="@string/male" />
+                    android:text="Male" />
 
                 <RadioButton
                     android:id="@+id/female_radio_btn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="40dp"
-                    android:text="@string/female" />
+                    android:text="Female" />
             </RadioGroup>
         </RelativeLayout>
 
@@ -151,9 +156,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="3dp"
 
-            android:text="Already have an account login"
+            android:text="Already have an account -> login"
             android:textColor="@android:color/black" />
 
     </LinearLayout>
 
 </LinearLayout>
+</ScrollView>
